@@ -21,7 +21,7 @@ from bingc import landing
 landing.news()
 
 # Get search suggestions (q is optional)
-landing.suggest(q="bing")
+landing.suggest(q="why.")
 ```
 
 <details>
