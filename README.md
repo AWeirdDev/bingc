@@ -3,7 +3,7 @@
 # bingc(hillin)
 Bing search scraper written in 🐍 Python™️®️ (🔥🔥🔥).
 
-**Why?**
+Why?
 
 - **Extremely lightweight**. Bingc is based on `selectolax` for HTML parsing and `primp` for HTTP request browser impersonation that's based on `rquest`.
 - **Ultra fast & robust**. While Bingc is written in Python, we carefully selected those two dependencies to smooth out everything: one is written in Rust and the other is written in C (w/ CPython).
@@ -82,3 +82,12 @@ NewsLanding(
 
 </details>
 
+<br />
+
+Take a look at the graph:
+
+![John Cena says "You can't see me"](assets/xina.png)
+
+> **Conventions**
+> 
+> Don't mass-request the same endpoint. There's a huge chance of you getting IP blocked, permanently or otherwise.
