@@ -1,9 +1,5 @@
-<img src="https://images.genius.com/b7856ba4b9670f426d8b347b3fc20a52.300x270x1.png" alt="Bing Chilling" width="120" align="right" />
-
-# bingc(hillin)
-Bing search scraper written in 🐍 Python™️®️ (🔥🔥🔥).
-
-Why?
+# bingc
+Bing(chilling) search scraper written in 🐍 Python™️®️. Key features:
 
 - **Extremely lightweight**. Bingc is based on `selectolax` for HTML parsing and `primp` for HTTP request browser impersonation that's based on `rquest`.
 - **Ultra fast & robust**. While Bingc is written in Python, we carefully selected those two dependencies to smooth out everything: one is written in Rust and the other is written in C (w/ CPython).
@@ -11,6 +7,7 @@ Why?
 - **Asynchronous support**. Functions begin with the letter `a` is wrapped with `asyncify`.
 - **John Cena**. You can't see me (on PyPi, probably).
 
+<br />
 
 Bingc APIs are organized by their API category. For example, if you'd like to fetch the latest news from Bing from [this page](https://www.bing.com/news) (where there's no query parameters), we call it `landing`. Therefore, to use the `news()` call, you'd do:
 
