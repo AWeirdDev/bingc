@@ -1,11 +1,11 @@
 # bingc
-Bing(chilling) search scraper written in 🐍 Python™️®️. Key features:
+[Bing](https://bing.com) search scraper written in 🐍 Python™️®️. Key features:
 
-- **Extremely lightweight**. Bingc is based on `selectolax` for HTML parsing and `primp` for HTTP request browser impersonation that's based on `rquest`.
-- **Ultra fast & robust**. While Bingc is written in Python, we carefully selected those two dependencies to smooth out everything: one is written in Rust and the other is written in C (w/ CPython).
-- **Strongly typed**. Bingc is typed everywhere and has a clean, idiomatic API.
-- **Asynchronous support**. Functions begin with the letter `a` is wrapped with `asyncify`.
-- **John Cena**. You can't see me (on PyPi, probably).
+- 🪶 **Extremely lightweight**. Bingc is based on `selectolax` for HTML parsing and `primp` for HTTP request browser impersonation that's based on `rquest`.
+- ⚡️ **Ultra fast & robust**. While Bingc is written in Python, we carefully selected those two dependencies to smooth out everything: one is written in Rust and the other is written in C (w/ CPython).
+- 🆎 **Strongly typed**. Bingc is typed everywhere and has a clean, idiomatic API.
+- 🚦 **Asynchronous support**. Functions begin with the letter `a` is wrapped with `asyncify`.
+- 🍦 **John Cena**. You can't see me (on PyPi, probably).
 
 <br />
 
@@ -16,9 +16,6 @@ from bingc import landing
 
 # Get latest news
 landing.news()
-
-# Get search suggestions (q is optional)
-landing.suggest(q="why.")
 ```
 
 <details>
@@ -51,6 +48,11 @@ NewsLanding(
 ```
 
 </details>
+
+```python
+# Get search suggestions (q is optional)
+landing.suggest(q="why.")
+```
 
 <details>
 <summary><b>Example output (search suggestions)</b></summary>
